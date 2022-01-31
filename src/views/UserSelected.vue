@@ -1,29 +1,29 @@
 <template>
- <div class="home-wrapper">
+  <div class="about-wrapper">
     <div>
       <Sidebar />
     </div>
     <div>
-      <Users/>
+      <!-- <Users /> -->
     </div>
   </div>
 </template>
-<script>
 
+<script>
 import Sidebar from "@/components/Sidebar.vue";
-import Users from "@/components/Users.vue";
+// import Users from "@/components/Users.vue";
 
 export default {
-  name: "Home",
+  name: "UserSelected",
   components: {
     Sidebar,
-    Users,
+    // Users,
   },
 };
 </script>
 
 <style scoped>
-.home-wrapper {
+.about-wrapper {
   padding-top: 20px;
   max-width: 1400px;
   margin: 0 auto;
